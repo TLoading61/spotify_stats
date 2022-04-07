@@ -27,6 +27,7 @@ body{
     text-decoration: none;
     color: white;
     font-size: 14px;
+    transition: all .1s;
 }
 
 #menu li a:hover{
@@ -39,6 +40,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 #title{
@@ -67,6 +69,8 @@ body{
     border: 1px solid white;
     margin-top: 25px;
     opacity: .6;
+    transition: all .5s;
+    margin-bottom: 40px;
 }
 
 #main_btn:hover{
